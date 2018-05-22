@@ -17,7 +17,7 @@ Are you ready to build your first book?  Follow these simple steps to get set up
 * Create new page
 * Publish your project
 
-### Sync to GitHub Repo
+### Create GitHub Repo
 
 Git is a modern version control system.  There really is no other tool that offers a better solution for versioning files.
 
@@ -26,6 +26,8 @@ Git saves all of the versions of a set of files in a code repository, typically 
 Git helps many users to work together while preventing mishaps that naturally occur when many developers are working on the same set of code.
 
 GitHub is a web service that manages Git Repos.  It provides a nice user interface to let people directly edit the code in the repos.  No longer is it necessary to even have the code on your local computer.  Of course it is sometimes convenient to work on code locally and then commit all of the changes back into the repo.
+
+## Sync to GitHub Repo
 
 GitBook lets you define a direct link between a GitBook and a code repo on GitHub.  For each GitBook project set up a GitHub repo that is automatically synchronized.  This is done with a GitHub integration.
 
