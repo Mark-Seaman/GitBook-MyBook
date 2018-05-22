@@ -1,0 +1,35 @@
+Document Formatting
+--------------------
+
+aspire/advisor_views.py:        'doc_content': doc_html_text(doc),
+aspire/advisor_views.py:        'text': doc_html_text(title),
+
+aspire/aspire.py:               'text': doc_html_text(doc),
+aspire/doc.py:                  return doc_html_text(path)
+aspire/views.py:                'text': doc_html_text(title),
+
+church/event_views.py:          'card_text': doc_html_text('church/Meetings'),
+church/views.py:                'card_text': doc_html_text('church/%s' % title),
+church/views.py:                'card_text': doc_html_text('church/Meetings')
+
+doc/doc.py:                     return doc_html_text(title)
+
+health/views.py:                text = doc_html_text('MarkSeaman/Health')
+
+mybook/author.py:               return doc_html_text(doc)
+mybook/mybook.py:               'text': doc_html_text(doc),
+mybook/mybook_views.py:         'text': doc_html_text(title),
+mybook/mybook_views.py:         'text': doc_html_text('spiritual/Home'),
+
+superuser/admin_views.py:       'doc': doc_html_text('hire/' + kwargs['doc']),
+
+tasks/views.py:                 'text': doc_html_text('aspire/Task'),
+
+tool/document.py:               def doc_html_text(page):
+
+tool/email.py:                  text = doc_html_text(doc)
+
+workshop/thot.py:               return doc_html_text(path)
+
+workshop/views.py:              text = doc_html_text('workshop/' + title)
+workshop/views.py:              text = doc_html_text('workshop/' + title)

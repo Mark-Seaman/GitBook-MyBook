@@ -1,0 +1,4 @@
+accounts-list,Shrinking World,http://seaman-tech.com
+home,Home,/mybook/Index
+local-library,Books,/mybook/book_list
+face,Authors,/mybook/author_list
