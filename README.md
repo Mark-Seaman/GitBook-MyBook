@@ -1,7 +1,3 @@
----
-description: The fastest path to personal publishing.
----
-
 # My Book Online
 
 My Book Online is a personal publishing platform that help authors create content for electronic books.  It contains a number of tools that make the writing process more efficient.
